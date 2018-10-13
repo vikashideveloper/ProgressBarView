@@ -12,6 +12,7 @@
 		134AAD4B2171D4EC00D166D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 134AAD492171D4EC00D166D2 /* Main.storyboard */; };
 		134AAD4D2171D4EE00D166D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 134AAD4C2171D4EE00D166D2 /* Assets.xcassets */; };
 		134AAD502171D4EE00D166D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 134AAD4E2171D4EE00D166D2 /* LaunchScreen.storyboard */; };
+		134AAD5B2171DE2D00D166D2 /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134AAD5A2171DE2D00D166D2 /* ProgressBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		134AAD4C2171D4EE00D166D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		134AAD4F2171D4EE00D166D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		134AAD512171D4EE00D166D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		134AAD5A2171DE2D00D166D2 /* ProgressBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +56,21 @@
 		134AAD442171D4EC00D166D2 /* VProgressBarView */ = {
 			isa = PBXGroup;
 			children = (
+				134AAD572171D51900D166D2 /* VProgressBarView */,
 				134AAD452171D4EC00D166D2 /* AppDelegate.swift */,
 				134AAD472171D4EC00D166D2 /* ViewController.swift */,
 				134AAD492171D4EC00D166D2 /* Main.storyboard */,
 				134AAD4C2171D4EE00D166D2 /* Assets.xcassets */,
 				134AAD4E2171D4EE00D166D2 /* LaunchScreen.storyboard */,
 				134AAD512171D4EE00D166D2 /* Info.plist */,
+			);
+			path = VProgressBarView;
+			sourceTree = "<group>";
+		};
+		134AAD572171D51900D166D2 /* VProgressBarView */ = {
+			isa = PBXGroup;
+			children = (
+				134AAD5A2171DE2D00D166D2 /* ProgressBarView.swift */,
 			);
 			path = VProgressBarView;
 			sourceTree = "<group>";
@@ -136,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				134AAD482171D4EC00D166D2 /* ViewController.swift in Sources */,
+				134AAD5B2171DE2D00D166D2 /* ProgressBarView.swift in Sources */,
 				134AAD462171D4EC00D166D2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
